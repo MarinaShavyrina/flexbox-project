@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <nav class="nav">
+                <div class="nav-left">
+                    <a href="index.html" class="logo"><img src="img/logo.svg" alt="logo" class="logo-img" width="44"
+                            height="38"></a>
+                    <a href="#"><img src="img/search.svg" alt="search" class="search" width="26" height="27"></a>
+                </div>
+                <div class="nav-right">
+                    <a href="#"><img class="menu" src="img/menu.svg" alt="menu" width="32" height="23"></a>
+                    <a href="#"><img class="user" src="img/user.svg" alt="user" width="29" height="29"></a>
+                    <a href="cart.html"><img class="basket" src="img/basket_1.svg" alt="basket" width="41"
+                            height="37"></a>
+                    <span class="quantity-in-basket">5</span>
+                </div>
+            </nav>
+        </div>
+        <div class="nav-main-dropdown close">
+            <div class="nav-main-wrapper">
+                <button class="btn-nav-main">&#215;</button>
+                <a href="#">
+                    <h3 class="nav-main-title">MENU</h3>
+                </a>
+                <a href="#">
+                    <h4 class="nav-main-heading">MAN</h4>
+                </a>
+                <ul class="nav-main-list">
+                    <li class="nav-main-item"><a class="nav-main-link" href="#">Accessories</a></li>
+                    <li class="nav-main-item"><a class="nav-main-link" href="#">Bags</a></li>
+                    <li class="nav-main-item"><a class="nav-main-link" href="#">Denim</a></li>
+                    <li class="nav-main-item"><a class="nav-main-link" href="#">T-Shirts</a></li>
+                </ul>
+
+
+                <a href="#">
+                    <h4 class="nav-main-heading">WOMAN</h4>
+                </a>
+                <ul class="nav-main-list">
+                    <li class="nav-main-item"><a class="nav-main-link" href="#">Accessories</a></li>
+                    <li class="nav-main-item"><a class="nav-main-link" href="#">Jackets & Coats</a></li>
+                    <li class="nav-main-item"><a class="nav-main-link" href="#">Polos</a></li>
+                    <li class="nav-main-item"><a class="nav-main-link" href="#">T-Shirts</a></li>
+                    <li class="nav-main-item"><a class="nav-main-link" href="#">Shirts</a></li>
+                </ul>
+
+                <a href="#">
+                    <h4 class="nav-main-heading">KIDS</h4>
+                </a>
+                <ul class="nav-main-list">
+                    <li class="nav-main-item"><a class="nav-main-link" href="#">Accessories</a></li>
+                    <li class="nav-main-item"><a class="nav-main-link" href="#">Jackets & Coats</a></li>
+                    <li class="nav-main-item"><a class="nav-main-link" href="#">Polos</a></li>
+                    <li class="nav-main-item"><a class="nav-main-link" href="#">T-Shirts</a></li>
+                    <li class="nav-main-item"><a class="nav-main-link" href="#">Shirts</a></li>
+                    <li class="nav-main-item"><a class="nav-main-link" href="#">Bags</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="shopping-cart">
+        <div class="wrapper shopping-cart-wrapper">
+            <p class="shopping-cart-text">REGISTRATION</p>
+        </div>
+    </section>
+
+
+
+    <section class="registration">
+        <div class="wrapper registration-wrapper">
+            <div class="registration-form">
+                <form action="#" method="post">
+                    <label class="label-heading" for="first-name">Your Name</label> <br>
+                    <input class="input-text" type="text" name="FirstName" id="first-name" placeholder="First Name">
+                    <br>
+                    <input class="input-text" type="text" name="LastName" placeholder="Last Name"> <br>
+                    <input class="input-radio" type="radio" name="sex" id="male">
+                    <label class="label-radio" for="male">Male</label>
+                    <input class="input-radio" type="radio" name="sex" id="female">
+                    <label class="label-radio" for="female">Female</label> <br>
+
+                    <label class="label-heading" for="login">Login Details</label> <br>
+                    <input class="input-text" type="email" name="Email" id="login" placeholder="Email"> <br>
+                    <input class="input-text" type="password" name="Password" id="pass" placeholder="Password"> <br>
+                    <p class="pass-comment"><label class="label-pass" for="pass">Please use 8 or more characters, with
+                            at least
+                            1 number and a
+                            mixture of uppercase
+                            and lowercase letters</label></p><br>
+                    <button class="registration-button">JOIN NOW
+                        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    </button>
+
+                </form>
+            </div>
+
+
+            <div class="registration-text">
+                <h5>LOYALTY HAS ITS PERKS</h5>
+                <p class="registration-text-1">Get in on the loyalty program where you can earn points and unlock
+                    serious perks. Starting with these
+                    as soon as you join:</p>
+                <!-- <p><i class="fa fa-check" aria-hidden="true"></i>15% off welcome offer
+                </p>
+                <p><i class="fa fa-check" aria-hidden="true"></i>Free shipping, returns and exchanges on all orders
+
+                </p>
+                <p><i class="fa fa-check" aria-hidden="true"></i>$10 off a purchase on your birthday
+
+                </p>
+                <p><i class="fa fa-check" aria-hidden="true"></i>Early access to products</p>
+                <p><i class="fa fa-check" aria-hidden="true"></i>Exclusive offers &amp; rewards</p> -->
+                <ul class="registration-text-list">
+                    <li>15% off welcome offer</li>
+                    <li>Free shipping, returns and exchanges on all orders</li>
+                    <li>$10 off a purchase on your birthday</li>
+                    <li>Early access to products</li>
+                    <li>Exclusive offers &amp; rewards</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+
+        <section class="subscribe">
+            <div class="wrapper subscribe-wrapper">
+                <div class="subscribe-left">
+                    <img class="subscribe-left-img" src="img/lady.png" alt="lady">
+                    <p class="subscribe-left-text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar
+                        purus condimentum“</p>
+                </div>
+
+                <div class="subscribe-right">
+                    <p>SUBSCRIBE <br>
+                        <span>FOR OUR NEWLETTER AND PROMOTION</span>
+                    </p>
+                    <form class="subscribe-right-form" action="#" method="post">
+                        <input class="input-1" type="email" placeholder="Enter Your Email">
+                        <input class="input-2" type="submit" value="Subscribe">
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="bottom">
+            <div class="wrapper bottom-wrapper">
+                <p class="bottom-wrapper-text">&copy; 2021 Brand All Rights Reserved. </p>
+
+                <ul class="bottom-list">
+                    <li class="bottom-item"><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                    <li class="bottom-item"><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                    <li class="bottom-item"><i class="fa fa-pinterest-p" aria-hidden="true"></i></li>
+                    <li class="bottom-item"><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                </ul>
+            </div>
+        </section>
+
+    </footer>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+</html>
